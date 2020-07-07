@@ -1,0 +1,1329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B137A1F8CB913B60D78553 /* Pods_RoadStar_Provider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2F813C7B6084FDFA09D016 /* Pods_RoadStar_Provider.framework */; };
+		4FE892A9A4014D1DEBFA0C5F /* Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B2FB0C6EC1E7CBA18D120C /* Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework */; };
+		52728AC5C58DD1B9B568C861 /* Pods_RoadStar_ProviderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1BAC4D1A0D9D7E83B98508 /* Pods_RoadStar_ProviderTests.framework */; };
+		841CDB0824B0736C00510195 /* RegisterDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0724B0736C00510195 /* RegisterDriverViewController.swift */; };
+		841CDB0924B0736C00510195 /* RegisterDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0724B0736C00510195 /* RegisterDriverViewController.swift */; };
+		841CDB0A24B0736C00510195 /* RegisterDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0724B0736C00510195 /* RegisterDriverViewController.swift */; };
+		841CDB0C24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0B24B0739A00510195 /* RegisterCompanyViewController.swift */; };
+		841CDB0D24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0B24B0739A00510195 /* RegisterCompanyViewController.swift */; };
+		841CDB0E24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0B24B0739A00510195 /* RegisterCompanyViewController.swift */; };
+		841CDB1024B0842B00510195 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0F24B0842B00510195 /* RequestViewController.swift */; };
+		841CDB1124B0842B00510195 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0F24B0842B00510195 /* RequestViewController.swift */; };
+		841CDB1224B0842B00510195 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB0F24B0842B00510195 /* RequestViewController.swift */; };
+		841CDB1424B0844900510195 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1324B0844900510195 /* RequestTableViewCell.swift */; };
+		841CDB1524B0844900510195 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1324B0844900510195 /* RequestTableViewCell.swift */; };
+		841CDB1624B0844900510195 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1324B0844900510195 /* RequestTableViewCell.swift */; };
+		841CDB1824B08D4100510195 /* ManageVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1724B08D4100510195 /* ManageVehicleViewController.swift */; };
+		841CDB1924B08D4100510195 /* ManageVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1724B08D4100510195 /* ManageVehicleViewController.swift */; };
+		841CDB1A24B08D4100510195 /* ManageVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1724B08D4100510195 /* ManageVehicleViewController.swift */; };
+		841CDB1C24B0910000510195 /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1B24B0910000510195 /* RequestDetailViewController.swift */; };
+		841CDB1D24B0910000510195 /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1B24B0910000510195 /* RequestDetailViewController.swift */; };
+		841CDB1E24B0910000510195 /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1B24B0910000510195 /* RequestDetailViewController.swift */; };
+		841CDB2024B099ED00510195 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1F24B099ED00510195 /* DocumentViewController.swift */; };
+		841CDB2124B099ED00510195 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1F24B099ED00510195 /* DocumentViewController.swift */; };
+		841CDB2224B099ED00510195 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB1F24B099ED00510195 /* DocumentViewController.swift */; };
+		841CDB2524B09D6E00510195 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB2424B09D6E00510195 /* LogoutView.swift */; };
+		841CDB2624B09D6E00510195 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB2424B09D6E00510195 /* LogoutView.swift */; };
+		841CDB2724B09D6E00510195 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB2424B09D6E00510195 /* LogoutView.swift */; };
+		841CDB2924B09D7E00510195 /* LogoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2824B09D7E00510195 /* LogoutView.xib */; };
+		841CDB2A24B09D7E00510195 /* LogoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2824B09D7E00510195 /* LogoutView.xib */; };
+		841CDB2B24B09D7E00510195 /* LogoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2824B09D7E00510195 /* LogoutView.xib */; };
+		841CDB2D24B0A24D00510195 /* CancelRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2C24B0A24D00510195 /* CancelRequestView.xib */; };
+		841CDB2E24B0A24D00510195 /* CancelRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2C24B0A24D00510195 /* CancelRequestView.xib */; };
+		841CDB2F24B0A24D00510195 /* CancelRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CDB2C24B0A24D00510195 /* CancelRequestView.xib */; };
+		841CDB3124B0A26300510195 /* CancelRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB3024B0A26300510195 /* CancelRequestView.swift */; };
+		841CDB3224B0A26300510195 /* CancelRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB3024B0A26300510195 /* CancelRequestView.swift */; };
+		841CDB3324B0A26300510195 /* CancelRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CDB3024B0A26300510195 /* CancelRequestView.swift */; };
+		843873B024AC9C2C00828515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843873AF24AC9C2C00828515 /* AppDelegate.swift */; };
+		843873B224AC9C2C00828515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843873B124AC9C2C00828515 /* ViewController.swift */; };
+		843873B524AC9C2C00828515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843873B324AC9C2C00828515 /* Main.storyboard */; };
+		843873B724AC9C3300828515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843873B624AC9C3300828515 /* Assets.xcassets */; };
+		843873BA24AC9C3300828515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843873B824AC9C3300828515 /* LaunchScreen.storyboard */; };
+		843873C524AC9C3300828515 /* RoadStar_ProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843873C424AC9C3300828515 /* RoadStar_ProviderTests.swift */; };
+		843873D024AC9C3300828515 /* RoadStar_ProviderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843873CF24AC9C3300828515 /* RoadStar_ProviderUITests.swift */; };
+		848F4B2924AC9F6200880ACA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2824AC9F6200880ACA /* SplashViewController.swift */; };
+		848F4B2A24AC9F6200880ACA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2824AC9F6200880ACA /* SplashViewController.swift */; };
+		848F4B2B24AC9F6200880ACA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2824AC9F6200880ACA /* SplashViewController.swift */; };
+		848F4B2D24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2C24AC9F7700880ACA /* OverViewScreenViewController.swift */; };
+		848F4B2E24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2C24AC9F7700880ACA /* OverViewScreenViewController.swift */; };
+		848F4B2F24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B2C24AC9F7700880ACA /* OverViewScreenViewController.swift */; };
+		848F4B3124AC9F8800880ACA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3024AC9F8800880ACA /* RegisterViewController.swift */; };
+		848F4B3224AC9F8800880ACA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3024AC9F8800880ACA /* RegisterViewController.swift */; };
+		848F4B3324AC9F8800880ACA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3024AC9F8800880ACA /* RegisterViewController.swift */; };
+		848F4B3524AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3424AC9FC200880ACA /* VerifyOtpViewController.swift */; };
+		848F4B3624AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3424AC9FC200880ACA /* VerifyOtpViewController.swift */; };
+		848F4B3724AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3424AC9FC200880ACA /* VerifyOtpViewController.swift */; };
+		848F4B3924AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3824AC9FCB00880ACA /* RegisterDetailViewController.swift */; };
+		848F4B3A24AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3824AC9FCB00880ACA /* RegisterDetailViewController.swift */; };
+		848F4B3B24AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3824AC9FCB00880ACA /* RegisterDetailViewController.swift */; };
+		848F4B3D24AC9FD200880ACA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3C24AC9FD200880ACA /* SignInViewController.swift */; };
+		848F4B3E24AC9FD200880ACA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3C24AC9FD200880ACA /* SignInViewController.swift */; };
+		848F4B3F24AC9FD200880ACA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B3C24AC9FD200880ACA /* SignInViewController.swift */; };
+		848F4B4124AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4024AC9FDA00880ACA /* ForgetPasswordViewController.swift */; };
+		848F4B4224AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4024AC9FDA00880ACA /* ForgetPasswordViewController.swift */; };
+		848F4B4324AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4024AC9FDA00880ACA /* ForgetPasswordViewController.swift */; };
+		848F4B4524AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4424AC9FFB00880ACA /* RegisterCateogryViewController.swift */; };
+		848F4B4624AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4424AC9FFB00880ACA /* RegisterCateogryViewController.swift */; };
+		848F4B4724AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4424AC9FFB00880ACA /* RegisterCateogryViewController.swift */; };
+		848F4B4A24ACA3D600880ACA /* JDropDownAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4924ACA3D600880ACA /* JDropDownAlert.swift */; };
+		848F4B4B24ACA3D600880ACA /* JDropDownAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4924ACA3D600880ACA /* JDropDownAlert.swift */; };
+		848F4B4C24ACA3D600880ACA /* JDropDownAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4924ACA3D600880ACA /* JDropDownAlert.swift */; };
+		848F4B4E24ACA3E200880ACA /* Layout+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4D24ACA3E200880ACA /* Layout+Customization.swift */; };
+		848F4B4F24ACA3E200880ACA /* Layout+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4D24ACA3E200880ACA /* Layout+Customization.swift */; };
+		848F4B5024ACA3E200880ACA /* Layout+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B4D24ACA3E200880ACA /* Layout+Customization.swift */; };
+		848F4B5224ACA3EC00880ACA /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5124ACA3EB00880ACA /* String+Validation.swift */; };
+		848F4B5324ACA3EC00880ACA /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5124ACA3EB00880ACA /* String+Validation.swift */; };
+		848F4B5424ACA3EC00880ACA /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5124ACA3EB00880ACA /* String+Validation.swift */; };
+		848F4B5624ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5524ACA3F200880ACA /* UIApplication+Statusbar.swift */; };
+		848F4B5724ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5524ACA3F200880ACA /* UIApplication+Statusbar.swift */; };
+		848F4B5824ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5524ACA3F200880ACA /* UIApplication+Statusbar.swift */; };
+		848F4B5E24ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5924ACA3FB00880ACA /* UIStoryboard+Loader.swift */; };
+		848F4B5F24ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5924ACA3FB00880ACA /* UIStoryboard+Loader.swift */; };
+		848F4B6024ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5924ACA3FB00880ACA /* UIStoryboard+Loader.swift */; };
+		848F4B6124ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5A24ACA3FB00880ACA /* UIViewController+Loader.swift */; };
+		848F4B6224ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5A24ACA3FB00880ACA /* UIViewController+Loader.swift */; };
+		848F4B6324ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5A24ACA3FB00880ACA /* UIViewController+Loader.swift */; };
+		848F4B6424ACA3FC00880ACA /* UIFont+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5B24ACA3FB00880ACA /* UIFont+Size.swift */; };
+		848F4B6524ACA3FC00880ACA /* UIFont+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5B24ACA3FB00880ACA /* UIFont+Size.swift */; };
+		848F4B6624ACA3FC00880ACA /* UIFont+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5B24ACA3FB00880ACA /* UIFont+Size.swift */; };
+		848F4B6724ACA3FC00880ACA /* UINib+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5C24ACA3FC00880ACA /* UINib+Loader.swift */; };
+		848F4B6824ACA3FC00880ACA /* UINib+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5C24ACA3FC00880ACA /* UINib+Loader.swift */; };
+		848F4B6924ACA3FC00880ACA /* UINib+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5C24ACA3FC00880ACA /* UINib+Loader.swift */; };
+		848F4B6A24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5D24ACA3FC00880ACA /* UIColor+Theme.swift */; };
+		848F4B6B24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5D24ACA3FC00880ACA /* UIColor+Theme.swift */; };
+		848F4B6C24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B5D24ACA3FC00880ACA /* UIColor+Theme.swift */; };
+		848F4B7324ACA41900880ACA /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6E24ACA41900880ACA /* ToastView.swift */; };
+		848F4B7424ACA41900880ACA /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6E24ACA41900880ACA /* ToastView.swift */; };
+		848F4B7524ACA41900880ACA /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6E24ACA41900880ACA /* ToastView.swift */; };
+		848F4B7624ACA41900880ACA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6F24ACA41900880ACA /* Toast.swift */; };
+		848F4B7724ACA41900880ACA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6F24ACA41900880ACA /* Toast.swift */; };
+		848F4B7824ACA41900880ACA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B6F24ACA41900880ACA /* Toast.swift */; };
+		848F4B7924ACA41900880ACA /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7024ACA41900880ACA /* ToastWindow.swift */; };
+		848F4B7A24ACA41900880ACA /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7024ACA41900880ACA /* ToastWindow.swift */; };
+		848F4B7B24ACA41900880ACA /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7024ACA41900880ACA /* ToastWindow.swift */; };
+		848F4B7C24ACA41900880ACA /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7224ACA41900880ACA /* ToastCenter.swift */; };
+		848F4B7D24ACA41900880ACA /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7224ACA41900880ACA /* ToastCenter.swift */; };
+		848F4B7E24ACA41900880ACA /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B7224ACA41900880ACA /* ToastCenter.swift */; };
+		848F4B8524ACA45E00880ACA /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8224ACA45E00880ACA /* DropDown+Appearance.swift */; };
+		848F4B8624ACA45E00880ACA /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8224ACA45E00880ACA /* DropDown+Appearance.swift */; };
+		848F4B8724ACA45E00880ACA /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8224ACA45E00880ACA /* DropDown+Appearance.swift */; };
+		848F4B8824ACA45E00880ACA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8324ACA45E00880ACA /* DropDownCell.swift */; };
+		848F4B8924ACA45E00880ACA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8324ACA45E00880ACA /* DropDownCell.swift */; };
+		848F4B8A24ACA45E00880ACA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8324ACA45E00880ACA /* DropDownCell.swift */; };
+		848F4B8B24ACA45E00880ACA /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8424ACA45E00880ACA /* DropDown.swift */; };
+		848F4B8C24ACA45E00880ACA /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8424ACA45E00880ACA /* DropDown.swift */; };
+		848F4B8D24ACA45E00880ACA /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B8424ACA45E00880ACA /* DropDown.swift */; };
+		848F4B9024ACA48700880ACA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F4B8F24ACA48700880ACA /* DropDownCell.xib */; };
+		848F4B9124ACA48700880ACA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F4B8F24ACA48700880ACA /* DropDownCell.xib */; };
+		848F4B9224ACA48700880ACA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F4B8F24ACA48700880ACA /* DropDownCell.xib */; };
+		848F4B9724ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9424ACA4A300880ACA /* DPDUIView+Extension.swift */; };
+		848F4B9824ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9424ACA4A300880ACA /* DPDUIView+Extension.swift */; };
+		848F4B9924ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9424ACA4A300880ACA /* DPDUIView+Extension.swift */; };
+		848F4B9A24ACA4A300880ACA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9524ACA4A300880ACA /* DPDConstants.swift */; };
+		848F4B9B24ACA4A300880ACA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9524ACA4A300880ACA /* DPDConstants.swift */; };
+		848F4B9C24ACA4A300880ACA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9524ACA4A300880ACA /* DPDConstants.swift */; };
+		848F4B9D24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9624ACA4A300880ACA /* DPDKeyboardListener.swift */; };
+		848F4B9E24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9624ACA4A300880ACA /* DPDKeyboardListener.swift */; };
+		848F4B9F24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4B9624ACA4A300880ACA /* DPDKeyboardListener.swift */; };
+		848F4BAC24ACA4C300880ACA /* ISPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA224ACA4C200880ACA /* ISPageControl.swift */; };
+		848F4BAD24ACA4C300880ACA /* ISPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA224ACA4C200880ACA /* ISPageControl.swift */; };
+		848F4BAE24ACA4C300880ACA /* ISPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA224ACA4C200880ACA /* ISPageControl.swift */; };
+		848F4BAF24ACA4C300880ACA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA324ACA4C200880ACA /* Constant.swift */; };
+		848F4BB024ACA4C300880ACA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA324ACA4C200880ACA /* Constant.swift */; };
+		848F4BB124ACA4C300880ACA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA324ACA4C200880ACA /* Constant.swift */; };
+		848F4BB224ACA4C300880ACA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA424ACA4C200880ACA /* Singleton.swift */; };
+		848F4BB324ACA4C300880ACA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA424ACA4C200880ACA /* Singleton.swift */; };
+		848F4BB424ACA4C300880ACA /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA424ACA4C200880ACA /* Singleton.swift */; };
+		848F4BB524ACA4C300880ACA /* CustomServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA524ACA4C200880ACA /* CustomServiceError.swift */; };
+		848F4BB624ACA4C300880ACA /* CustomServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA524ACA4C200880ACA /* CustomServiceError.swift */; };
+		848F4BB724ACA4C300880ACA /* CustomServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA524ACA4C200880ACA /* CustomServiceError.swift */; };
+		848F4BB824ACA4C300880ACA /* HBURLRequestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA624ACA4C300880ACA /* HBURLRequestSession.swift */; };
+		848F4BB924ACA4C300880ACA /* HBURLRequestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA624ACA4C300880ACA /* HBURLRequestSession.swift */; };
+		848F4BBA24ACA4C300880ACA /* HBURLRequestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA624ACA4C300880ACA /* HBURLRequestSession.swift */; };
+		848F4BBB24ACA4C300880ACA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA724ACA4C300880ACA /* Reachability.swift */; };
+		848F4BBC24ACA4C300880ACA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA724ACA4C300880ACA /* Reachability.swift */; };
+		848F4BBD24ACA4C300880ACA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA724ACA4C300880ACA /* Reachability.swift */; };
+		848F4BBE24ACA4C300880ACA /* HBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA824ACA4C300880ACA /* HBView.swift */; };
+		848F4BBF24ACA4C300880ACA /* HBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA824ACA4C300880ACA /* HBView.swift */; };
+		848F4BC024ACA4C300880ACA /* HBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BA824ACA4C300880ACA /* HBView.swift */; };
+		848F4BC624ACA86600880ACA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC524ACA86600880ACA /* SWRevealViewController.m */; };
+		848F4BC724ACA86600880ACA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC524ACA86600880ACA /* SWRevealViewController.m */; };
+		848F4BC824ACA86600880ACA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC524ACA86600880ACA /* SWRevealViewController.m */; };
+		848F4BCB24ACA89700880ACA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC924ACA89700880ACA /* HomeViewController.swift */; };
+		848F4BCC24ACA89700880ACA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC924ACA89700880ACA /* HomeViewController.swift */; };
+		848F4BCD24ACA89700880ACA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BC924ACA89700880ACA /* HomeViewController.swift */; };
+		848F4BCE24ACA89700880ACA /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BCA24ACA89700880ACA /* RearViewController.swift */; };
+		848F4BCF24ACA89700880ACA /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BCA24ACA89700880ACA /* RearViewController.swift */; };
+		848F4BD024ACA89700880ACA /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BCA24ACA89700880ACA /* RearViewController.swift */; };
+		848F4BD224ACAAEE00880ACA /* RKDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD124ACAAEE00880ACA /* RKDesignable.swift */; };
+		848F4BD324ACAAEE00880ACA /* RKDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD124ACAAEE00880ACA /* RKDesignable.swift */; };
+		848F4BD424ACAAEE00880ACA /* RKDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD124ACAAEE00880ACA /* RKDesignable.swift */; };
+		848F4BD824ACB09200880ACA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD524ACB09000880ACA /* SettingsViewController.swift */; };
+		848F4BD924ACB09200880ACA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD524ACB09000880ACA /* SettingsViewController.swift */; };
+		848F4BDA24ACB09200880ACA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD524ACB09000880ACA /* SettingsViewController.swift */; };
+		848F4BDB24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD624ACB09100880ACA /* ChangePasswordViewController.swift */; };
+		848F4BDC24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD624ACB09100880ACA /* ChangePasswordViewController.swift */; };
+		848F4BDD24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD624ACB09100880ACA /* ChangePasswordViewController.swift */; };
+		848F4BDE24ACB09200880ACA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD724ACB09200880ACA /* ProfileViewController.swift */; };
+		848F4BDF24ACB09200880ACA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD724ACB09200880ACA /* ProfileViewController.swift */; };
+		848F4BE024ACB09200880ACA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BD724ACB09200880ACA /* ProfileViewController.swift */; };
+		848F4BE224ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE124ACB6DC00880ACA /* BookingHistoryViewController.swift */; };
+		848F4BE324ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE124ACB6DC00880ACA /* BookingHistoryViewController.swift */; };
+		848F4BE424ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE124ACB6DC00880ACA /* BookingHistoryViewController.swift */; };
+		848F4BE624ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE524ACB6F600880ACA /* BookingHistoryTableViewCell.swift */; };
+		848F4BE724ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE524ACB6F600880ACA /* BookingHistoryTableViewCell.swift */; };
+		848F4BE824ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE524ACB6F600880ACA /* BookingHistoryTableViewCell.swift */; };
+		848F4BEA24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE924ACBDDE00880ACA /* EarningTableViewCell.swift */; };
+		848F4BEB24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE924ACBDDE00880ACA /* EarningTableViewCell.swift */; };
+		848F4BEC24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BE924ACBDDE00880ACA /* EarningTableViewCell.swift */; };
+		848F4BEE24ACBDF600880ACA /* EarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BED24ACBDF600880ACA /* EarningViewController.swift */; };
+		848F4BEF24ACBDF600880ACA /* EarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BED24ACBDF600880ACA /* EarningViewController.swift */; };
+		848F4BF024ACBDF600880ACA /* EarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4BED24ACBDF600880ACA /* EarningViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843873C124AC9C3300828515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843873A424AC9C2B00828515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843873AB24AC9C2B00828515;
+			remoteInfo = "RoadStar Provider";
+		};
+		843873CC24AC9C3300828515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843873A424AC9C2B00828515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843873AB24AC9C2B00828515;
+			remoteInfo = "RoadStar Provider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0636DEE54CF73AA7D011874D /* Pods-RoadStar ProviderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar ProviderTests.debug.xcconfig"; path = "Target Support Files/Pods-RoadStar ProviderTests/Pods-RoadStar ProviderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24B2FB0C6EC1E7CBA18D120C /* Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2570BAB04EDD7C8BE2FC7588 /* Pods-RoadStar Provider-RoadStar ProviderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar Provider-RoadStar ProviderUITests.release.xcconfig"; path = "Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2946C7CB4F512D657B1E345C /* Pods-RoadStar ProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar ProviderTests.release.xcconfig"; path = "Target Support Files/Pods-RoadStar ProviderTests/Pods-RoadStar ProviderTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1BAC4D1A0D9D7E83B98508 /* Pods_RoadStar_ProviderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadStar_ProviderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CDB0724B0736C00510195 /* RegisterDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDriverViewController.swift; sourceTree = "<group>"; };
+		841CDB0B24B0739A00510195 /* RegisterCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCompanyViewController.swift; sourceTree = "<group>"; };
+		841CDB0F24B0842B00510195 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		841CDB1324B0844900510195 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		841CDB1724B08D4100510195 /* ManageVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageVehicleViewController.swift; sourceTree = "<group>"; };
+		841CDB1B24B0910000510195 /* RequestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDetailViewController.swift; sourceTree = "<group>"; };
+		841CDB1F24B099ED00510195 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		841CDB2424B09D6E00510195 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		841CDB2824B09D7E00510195 /* LogoutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutView.xib; sourceTree = "<group>"; };
+		841CDB2C24B0A24D00510195 /* CancelRequestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CancelRequestView.xib; sourceTree = "<group>"; };
+		841CDB3024B0A26300510195 /* CancelRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelRequestView.swift; sourceTree = "<group>"; };
+		843873AC24AC9C2C00828515 /* RoadStar Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoadStar Provider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843873AF24AC9C2C00828515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843873B124AC9C2C00828515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843873B424AC9C2C00828515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843873B624AC9C3300828515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843873B924AC9C3300828515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843873BB24AC9C3300828515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843873C024AC9C3300828515 /* RoadStar ProviderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoadStar ProviderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843873C424AC9C3300828515 /* RoadStar_ProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStar_ProviderTests.swift; sourceTree = "<group>"; };
+		843873C624AC9C3300828515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843873CB24AC9C3300828515 /* RoadStar ProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoadStar ProviderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843873CF24AC9C3300828515 /* RoadStar_ProviderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStar_ProviderUITests.swift; sourceTree = "<group>"; };
+		843873D124AC9C3300828515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F4B2824AC9F6200880ACA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		848F4B2C24AC9F7700880ACA /* OverViewScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewScreenViewController.swift; sourceTree = "<group>"; };
+		848F4B3024AC9F8800880ACA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		848F4B3424AC9FC200880ACA /* VerifyOtpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOtpViewController.swift; sourceTree = "<group>"; };
+		848F4B3824AC9FCB00880ACA /* RegisterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDetailViewController.swift; sourceTree = "<group>"; };
+		848F4B3C24AC9FD200880ACA /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		848F4B4024AC9FDA00880ACA /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		848F4B4424AC9FFB00880ACA /* RegisterCateogryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCateogryViewController.swift; sourceTree = "<group>"; };
+		848F4B4924ACA3D600880ACA /* JDropDownAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDropDownAlert.swift; sourceTree = "<group>"; };
+		848F4B4D24ACA3E200880ACA /* Layout+Customization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Layout+Customization.swift"; sourceTree = "<group>"; };
+		848F4B5124ACA3EB00880ACA /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		848F4B5524ACA3F200880ACA /* UIApplication+Statusbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Statusbar.swift"; sourceTree = "<group>"; };
+		848F4B5924ACA3FB00880ACA /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
+		848F4B5A24ACA3FB00880ACA /* UIViewController+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Loader.swift"; sourceTree = "<group>"; };
+		848F4B5B24ACA3FB00880ACA /* UIFont+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Size.swift"; sourceTree = "<group>"; };
+		848F4B5C24ACA3FC00880ACA /* UINib+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Loader.swift"; sourceTree = "<group>"; };
+		848F4B5D24ACA3FC00880ACA /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		848F4B6E24ACA41900880ACA /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		848F4B6F24ACA41900880ACA /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		848F4B7024ACA41900880ACA /* ToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
+		848F4B7124ACA41900880ACA /* Toaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
+		848F4B7224ACA41900880ACA /* ToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
+		848F4B8024ACA44D00880ACA /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		848F4B8224ACA45E00880ACA /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		848F4B8324ACA45E00880ACA /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		848F4B8424ACA45E00880ACA /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		848F4B8F24ACA48700880ACA /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		848F4B9424ACA4A300880ACA /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		848F4B9524ACA4A300880ACA /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		848F4B9624ACA4A300880ACA /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		848F4BA224ACA4C200880ACA /* ISPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISPageControl.swift; sourceTree = "<group>"; };
+		848F4BA324ACA4C200880ACA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		848F4BA424ACA4C200880ACA /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		848F4BA524ACA4C200880ACA /* CustomServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomServiceError.swift; sourceTree = "<group>"; };
+		848F4BA624ACA4C300880ACA /* HBURLRequestSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBURLRequestSession.swift; sourceTree = "<group>"; };
+		848F4BA724ACA4C300880ACA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		848F4BA824ACA4C300880ACA /* HBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBView.swift; sourceTree = "<group>"; };
+		848F4BC124ACA86400880ACA /* RoadStar Provider-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoadStar Provider-Bridging-Header.h"; sourceTree = "<group>"; };
+		848F4BC224ACA86400880ACA /* RoadStar ProviderTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoadStar ProviderTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		848F4BC324ACA86400880ACA /* RoadStar ProviderUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoadStar ProviderUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		848F4BC424ACA86600880ACA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		848F4BC524ACA86600880ACA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		848F4BC924ACA89700880ACA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		848F4BCA24ACA89700880ACA /* RearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearViewController.swift; sourceTree = "<group>"; };
+		848F4BD124ACAAEE00880ACA /* RKDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKDesignable.swift; sourceTree = "<group>"; };
+		848F4BD524ACB09000880ACA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		848F4BD624ACB09100880ACA /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		848F4BD724ACB09200880ACA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		848F4BE124ACB6DC00880ACA /* BookingHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryViewController.swift; sourceTree = "<group>"; };
+		848F4BE524ACB6F600880ACA /* BookingHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		848F4BE924ACBDDE00880ACA /* EarningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningTableViewCell.swift; sourceTree = "<group>"; };
+		848F4BED24ACBDF600880ACA /* EarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningViewController.swift; sourceTree = "<group>"; };
+		9715C81E03673DC0ED42E0D3 /* Pods-RoadStar Provider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar Provider.release.xcconfig"; path = "Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider.release.xcconfig"; sourceTree = "<group>"; };
+		9F5FB3218F7FCA02E8AF3466 /* Pods-RoadStar Provider-RoadStar ProviderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar Provider-RoadStar ProviderUITests.debug.xcconfig"; path = "Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6FC9BAAE816D556B0064D65 /* Pods-RoadStar Provider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadStar Provider.debug.xcconfig"; path = "Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2F813C7B6084FDFA09D016 /* Pods_RoadStar_Provider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadStar_Provider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843873A924AC9C2B00828515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B137A1F8CB913B60D78553 /* Pods_RoadStar_Provider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873BD24AC9C3300828515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52728AC5C58DD1B9B568C861 /* Pods_RoadStar_ProviderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873C824AC9C3300828515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE892A9A4014D1DEBFA0C5F /* Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1707467AEBD2668A3489D48B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC9BAAE816D556B0064D65 /* Pods-RoadStar Provider.debug.xcconfig */,
+				9715C81E03673DC0ED42E0D3 /* Pods-RoadStar Provider.release.xcconfig */,
+				9F5FB3218F7FCA02E8AF3466 /* Pods-RoadStar Provider-RoadStar ProviderUITests.debug.xcconfig */,
+				2570BAB04EDD7C8BE2FC7588 /* Pods-RoadStar Provider-RoadStar ProviderUITests.release.xcconfig */,
+				0636DEE54CF73AA7D011874D /* Pods-RoadStar ProviderTests.debug.xcconfig */,
+				2946C7CB4F512D657B1E345C /* Pods-RoadStar ProviderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		841CDB2324B09D4700510195 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				841CDB2424B09D6E00510195 /* LogoutView.swift */,
+				841CDB2824B09D7E00510195 /* LogoutView.xib */,
+				841CDB2C24B0A24D00510195 /* CancelRequestView.xib */,
+				841CDB3024B0A26300510195 /* CancelRequestView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		843873A324AC9C2B00828515 = {
+			isa = PBXGroup;
+			children = (
+				848F4BA024ACA4B100880ACA /* Helper */,
+				848F4B7F24ACA42800880ACA /* DropDown */,
+				848F4B6D24ACA40B00880ACA /* Toast */,
+				841CDB2324B09D4700510195 /* CustomView */,
+				848F4B4824ACA3C000880ACA /* Extensions */,
+				843873AE24AC9C2C00828515 /* RoadStar Provider */,
+				843873C324AC9C3300828515 /* RoadStar ProviderTests */,
+				843873CE24AC9C3300828515 /* RoadStar ProviderUITests */,
+				843873AD24AC9C2C00828515 /* Products */,
+				1707467AEBD2668A3489D48B /* Pods */,
+				E1DD04F7BD7552E58B68650D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843873AD24AC9C2C00828515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843873AC24AC9C2C00828515 /* RoadStar Provider.app */,
+				843873C024AC9C3300828515 /* RoadStar ProviderTests.xctest */,
+				843873CB24AC9C3300828515 /* RoadStar ProviderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843873AE24AC9C2C00828515 /* RoadStar Provider */ = {
+			isa = PBXGroup;
+			children = (
+				843873AF24AC9C2C00828515 /* AppDelegate.swift */,
+				848F4BC424ACA86600880ACA /* SWRevealViewController.h */,
+				848F4BC524ACA86600880ACA /* SWRevealViewController.m */,
+				843873B124AC9C2C00828515 /* ViewController.swift */,
+				848F4B2824AC9F6200880ACA /* SplashViewController.swift */,
+				848F4B2C24AC9F7700880ACA /* OverViewScreenViewController.swift */,
+				848F4B4424AC9FFB00880ACA /* RegisterCateogryViewController.swift */,
+				848F4B3024AC9F8800880ACA /* RegisterViewController.swift */,
+				848F4B3424AC9FC200880ACA /* VerifyOtpViewController.swift */,
+				848F4B3824AC9FCB00880ACA /* RegisterDetailViewController.swift */,
+				841CDB0724B0736C00510195 /* RegisterDriverViewController.swift */,
+				841CDB0B24B0739A00510195 /* RegisterCompanyViewController.swift */,
+				848F4B3C24AC9FD200880ACA /* SignInViewController.swift */,
+				848F4B4024AC9FDA00880ACA /* ForgetPasswordViewController.swift */,
+				848F4BC924ACA89700880ACA /* HomeViewController.swift */,
+				841CDB0F24B0842B00510195 /* RequestViewController.swift */,
+				841CDB1324B0844900510195 /* RequestTableViewCell.swift */,
+				841CDB1B24B0910000510195 /* RequestDetailViewController.swift */,
+				848F4BCA24ACA89700880ACA /* RearViewController.swift */,
+				848F4BD624ACB09100880ACA /* ChangePasswordViewController.swift */,
+				848F4BD724ACB09200880ACA /* ProfileViewController.swift */,
+				848F4BD524ACB09000880ACA /* SettingsViewController.swift */,
+				848F4BE124ACB6DC00880ACA /* BookingHistoryViewController.swift */,
+				848F4BE524ACB6F600880ACA /* BookingHistoryTableViewCell.swift */,
+				848F4BED24ACBDF600880ACA /* EarningViewController.swift */,
+				848F4BE924ACBDDE00880ACA /* EarningTableViewCell.swift */,
+				841CDB1724B08D4100510195 /* ManageVehicleViewController.swift */,
+				841CDB1F24B099ED00510195 /* DocumentViewController.swift */,
+				843873B324AC9C2C00828515 /* Main.storyboard */,
+				843873B624AC9C3300828515 /* Assets.xcassets */,
+				843873B824AC9C3300828515 /* LaunchScreen.storyboard */,
+				843873BB24AC9C3300828515 /* Info.plist */,
+				848F4BC124ACA86400880ACA /* RoadStar Provider-Bridging-Header.h */,
+				848F4BC224ACA86400880ACA /* RoadStar ProviderTests-Bridging-Header.h */,
+				848F4BC324ACA86400880ACA /* RoadStar ProviderUITests-Bridging-Header.h */,
+			);
+			path = "RoadStar Provider";
+			sourceTree = "<group>";
+		};
+		843873C324AC9C3300828515 /* RoadStar ProviderTests */ = {
+			isa = PBXGroup;
+			children = (
+				843873C424AC9C3300828515 /* RoadStar_ProviderTests.swift */,
+				843873C624AC9C3300828515 /* Info.plist */,
+			);
+			path = "RoadStar ProviderTests";
+			sourceTree = "<group>";
+		};
+		843873CE24AC9C3300828515 /* RoadStar ProviderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843873CF24AC9C3300828515 /* RoadStar_ProviderUITests.swift */,
+				843873D124AC9C3300828515 /* Info.plist */,
+			);
+			path = "RoadStar ProviderUITests";
+			sourceTree = "<group>";
+		};
+		848F4B4824ACA3C000880ACA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B4924ACA3D600880ACA /* JDropDownAlert.swift */,
+				848F4B4D24ACA3E200880ACA /* Layout+Customization.swift */,
+				848F4B5124ACA3EB00880ACA /* String+Validation.swift */,
+				848F4B5524ACA3F200880ACA /* UIApplication+Statusbar.swift */,
+				848F4B5D24ACA3FC00880ACA /* UIColor+Theme.swift */,
+				848F4B5B24ACA3FB00880ACA /* UIFont+Size.swift */,
+				848F4B5C24ACA3FC00880ACA /* UINib+Loader.swift */,
+				848F4B5924ACA3FB00880ACA /* UIStoryboard+Loader.swift */,
+				848F4B5A24ACA3FB00880ACA /* UIViewController+Loader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		848F4B6D24ACA40B00880ACA /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B6F24ACA41900880ACA /* Toast.swift */,
+				848F4B7224ACA41900880ACA /* ToastCenter.swift */,
+				848F4B7124ACA41900880ACA /* Toaster.h */,
+				848F4B6E24ACA41900880ACA /* ToastView.swift */,
+				848F4B7024ACA41900880ACA /* ToastWindow.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		848F4B7F24ACA42800880ACA /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B9324ACA49300880ACA /* Helpers */,
+				848F4B8E24ACA46C00880ACA /* resources */,
+				848F4B8124ACA45200880ACA /* src */,
+				848F4B8024ACA44D00880ACA /* DropDown.h */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		848F4B8124ACA45200880ACA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B8424ACA45E00880ACA /* DropDown.swift */,
+				848F4B8224ACA45E00880ACA /* DropDown+Appearance.swift */,
+				848F4B8324ACA45E00880ACA /* DropDownCell.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		848F4B8E24ACA46C00880ACA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B8F24ACA48700880ACA /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		848F4B9324ACA49300880ACA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				848F4B9524ACA4A300880ACA /* DPDConstants.swift */,
+				848F4B9624ACA4A300880ACA /* DPDKeyboardListener.swift */,
+				848F4B9424ACA4A300880ACA /* DPDUIView+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		848F4BA024ACA4B100880ACA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				848F4BA324ACA4C200880ACA /* Constant.swift */,
+				848F4BA524ACA4C200880ACA /* CustomServiceError.swift */,
+				848F4BA624ACA4C300880ACA /* HBURLRequestSession.swift */,
+				848F4BA824ACA4C300880ACA /* HBView.swift */,
+				848F4BA224ACA4C200880ACA /* ISPageControl.swift */,
+				848F4BA724ACA4C300880ACA /* Reachability.swift */,
+				848F4BD124ACAAEE00880ACA /* RKDesignable.swift */,
+				848F4BA424ACA4C200880ACA /* Singleton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E1DD04F7BD7552E58B68650D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2F813C7B6084FDFA09D016 /* Pods_RoadStar_Provider.framework */,
+				24B2FB0C6EC1E7CBA18D120C /* Pods_RoadStar_Provider_RoadStar_ProviderUITests.framework */,
+				7A1BAC4D1A0D9D7E83B98508 /* Pods_RoadStar_ProviderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843873AB24AC9C2B00828515 /* RoadStar Provider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843873D424AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar Provider" */;
+			buildPhases = (
+				9449A563F1344626BDFB9EF5 /* [CP] Check Pods Manifest.lock */,
+				843873A824AC9C2B00828515 /* Sources */,
+				843873A924AC9C2B00828515 /* Frameworks */,
+				843873AA24AC9C2B00828515 /* Resources */,
+				321DD3EBF9F681ABA501715E /* [CP] Embed Pods Frameworks */,
+				CA403E61B930284A328327B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoadStar Provider";
+			productName = "RoadStar Provider";
+			productReference = 843873AC24AC9C2C00828515 /* RoadStar Provider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843873BF24AC9C3300828515 /* RoadStar ProviderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843873D724AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar ProviderTests" */;
+			buildPhases = (
+				E30725D67D8A3F229B5AA572 /* [CP] Check Pods Manifest.lock */,
+				843873BC24AC9C3300828515 /* Sources */,
+				843873BD24AC9C3300828515 /* Frameworks */,
+				843873BE24AC9C3300828515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843873C224AC9C3300828515 /* PBXTargetDependency */,
+			);
+			name = "RoadStar ProviderTests";
+			productName = "RoadStar ProviderTests";
+			productReference = 843873C024AC9C3300828515 /* RoadStar ProviderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843873CA24AC9C3300828515 /* RoadStar ProviderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843873DA24AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar ProviderUITests" */;
+			buildPhases = (
+				48203DE8567F1C5392A8049C /* [CP] Check Pods Manifest.lock */,
+				843873C724AC9C3300828515 /* Sources */,
+				843873C824AC9C3300828515 /* Frameworks */,
+				843873C924AC9C3300828515 /* Resources */,
+				B6C0C39074837B2ECF9FF879 /* [CP] Embed Pods Frameworks */,
+				9803EDCC2162F2612FF5719E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843873CD24AC9C3300828515 /* PBXTargetDependency */,
+			);
+			name = "RoadStar ProviderUITests";
+			productName = "RoadStar ProviderUITests";
+			productReference = 843873CB24AC9C3300828515 /* RoadStar ProviderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843873A424AC9C2B00828515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					843873AB24AC9C2B00828515 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+					};
+					843873BF24AC9C3300828515 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+						TestTargetID = 843873AB24AC9C2B00828515;
+					};
+					843873CA24AC9C3300828515 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+						TestTargetID = 843873AB24AC9C2B00828515;
+					};
+				};
+			};
+			buildConfigurationList = 843873A724AC9C2B00828515 /* Build configuration list for PBXProject "RoadStar Provider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843873A324AC9C2B00828515;
+			productRefGroup = 843873AD24AC9C2C00828515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843873AB24AC9C2B00828515 /* RoadStar Provider */,
+				843873BF24AC9C3300828515 /* RoadStar ProviderTests */,
+				843873CA24AC9C3300828515 /* RoadStar ProviderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843873AA24AC9C2B00828515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CDB2D24B0A24D00510195 /* CancelRequestView.xib in Resources */,
+				843873BA24AC9C3300828515 /* LaunchScreen.storyboard in Resources */,
+				843873B724AC9C3300828515 /* Assets.xcassets in Resources */,
+				848F4B9024ACA48700880ACA /* DropDownCell.xib in Resources */,
+				843873B524AC9C2C00828515 /* Main.storyboard in Resources */,
+				841CDB2924B09D7E00510195 /* LogoutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873BE24AC9C3300828515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CDB2E24B0A24D00510195 /* CancelRequestView.xib in Resources */,
+				841CDB2A24B09D7E00510195 /* LogoutView.xib in Resources */,
+				848F4B9124ACA48700880ACA /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873C924AC9C3300828515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CDB2F24B0A24D00510195 /* CancelRequestView.xib in Resources */,
+				841CDB2B24B09D7E00510195 /* LogoutView.xib in Resources */,
+				848F4B9224ACA48700880ACA /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321DD3EBF9F681ABA501715E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48203DE8567F1C5392A8049C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadStar Provider-RoadStar ProviderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9449A563F1344626BDFB9EF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadStar Provider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9803EDCC2162F2612FF5719E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C0C39074837B2ECF9FF879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider-RoadStar ProviderUITests/Pods-RoadStar Provider-RoadStar ProviderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA403E61B930284A328327B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadStar Provider/Pods-RoadStar Provider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30725D67D8A3F229B5AA572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadStar ProviderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843873A824AC9C2B00828515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F4B6724ACA3FC00880ACA /* UINib+Loader.swift in Sources */,
+				848F4BC624ACA86600880ACA /* SWRevealViewController.m in Sources */,
+				841CDB1024B0842B00510195 /* RequestViewController.swift in Sources */,
+				848F4B5E24ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */,
+				848F4B2924AC9F6200880ACA /* SplashViewController.swift in Sources */,
+				848F4BCE24ACA89700880ACA /* RearViewController.swift in Sources */,
+				848F4B3124AC9F8800880ACA /* RegisterViewController.swift in Sources */,
+				841CDB1C24B0910000510195 /* RequestDetailViewController.swift in Sources */,
+				848F4BB524ACA4C300880ACA /* CustomServiceError.swift in Sources */,
+				848F4BD824ACB09200880ACA /* SettingsViewController.swift in Sources */,
+				848F4BEE24ACBDF600880ACA /* EarningViewController.swift in Sources */,
+				848F4B7324ACA41900880ACA /* ToastView.swift in Sources */,
+				848F4B7C24ACA41900880ACA /* ToastCenter.swift in Sources */,
+				848F4B3924AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */,
+				848F4B5224ACA3EC00880ACA /* String+Validation.swift in Sources */,
+				841CDB2024B099ED00510195 /* DocumentViewController.swift in Sources */,
+				841CDB1424B0844900510195 /* RequestTableViewCell.swift in Sources */,
+				848F4BCB24ACA89700880ACA /* HomeViewController.swift in Sources */,
+				848F4B7924ACA41900880ACA /* ToastWindow.swift in Sources */,
+				848F4B9724ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */,
+				843873B224AC9C2C00828515 /* ViewController.swift in Sources */,
+				848F4BAC24ACA4C300880ACA /* ISPageControl.swift in Sources */,
+				848F4BBB24ACA4C300880ACA /* Reachability.swift in Sources */,
+				848F4B4124AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */,
+				848F4BBE24ACA4C300880ACA /* HBView.swift in Sources */,
+				848F4BB824ACA4C300880ACA /* HBURLRequestSession.swift in Sources */,
+				848F4B6424ACA3FC00880ACA /* UIFont+Size.swift in Sources */,
+				848F4BEA24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */,
+				848F4B6124ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */,
+				848F4B3D24AC9FD200880ACA /* SignInViewController.swift in Sources */,
+				841CDB1824B08D4100510195 /* ManageVehicleViewController.swift in Sources */,
+				848F4B6A24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */,
+				848F4BD224ACAAEE00880ACA /* RKDesignable.swift in Sources */,
+				848F4B8824ACA45E00880ACA /* DropDownCell.swift in Sources */,
+				848F4BE224ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */,
+				848F4BDB24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */,
+				841CDB3124B0A26300510195 /* CancelRequestView.swift in Sources */,
+				848F4BAF24ACA4C300880ACA /* Constant.swift in Sources */,
+				841CDB0C24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */,
+				848F4B7624ACA41900880ACA /* Toast.swift in Sources */,
+				841CDB0824B0736C00510195 /* RegisterDriverViewController.swift in Sources */,
+				848F4B3524AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */,
+				848F4B4E24ACA3E200880ACA /* Layout+Customization.swift in Sources */,
+				841CDB2524B09D6E00510195 /* LogoutView.swift in Sources */,
+				848F4B4524AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */,
+				848F4B8B24ACA45E00880ACA /* DropDown.swift in Sources */,
+				848F4B9D24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */,
+				848F4B5624ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */,
+				848F4B8524ACA45E00880ACA /* DropDown+Appearance.swift in Sources */,
+				848F4BB224ACA4C300880ACA /* Singleton.swift in Sources */,
+				848F4BE624ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */,
+				843873B024AC9C2C00828515 /* AppDelegate.swift in Sources */,
+				848F4B2D24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */,
+				848F4BDE24ACB09200880ACA /* ProfileViewController.swift in Sources */,
+				848F4B9A24ACA4A300880ACA /* DPDConstants.swift in Sources */,
+				848F4B4A24ACA3D600880ACA /* JDropDownAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873BC24AC9C3300828515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F4B3E24AC9FD200880ACA /* SignInViewController.swift in Sources */,
+				841CDB1524B0844900510195 /* RequestTableViewCell.swift in Sources */,
+				841CDB0D24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */,
+				848F4B9824ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */,
+				841CDB2624B09D6E00510195 /* LogoutView.swift in Sources */,
+				848F4B6824ACA3FC00880ACA /* UINib+Loader.swift in Sources */,
+				848F4B5F24ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */,
+				848F4BD324ACAAEE00880ACA /* RKDesignable.swift in Sources */,
+				848F4B6B24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */,
+				848F4BEB24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */,
+				848F4B8624ACA45E00880ACA /* DropDown+Appearance.swift in Sources */,
+				841CDB1924B08D4100510195 /* ManageVehicleViewController.swift in Sources */,
+				848F4B8C24ACA45E00880ACA /* DropDown.swift in Sources */,
+				848F4B7D24ACA41900880ACA /* ToastCenter.swift in Sources */,
+				848F4BB624ACA4C300880ACA /* CustomServiceError.swift in Sources */,
+				848F4B3624AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */,
+				848F4B4F24ACA3E200880ACA /* Layout+Customization.swift in Sources */,
+				848F4B5324ACA3EC00880ACA /* String+Validation.swift in Sources */,
+				841CDB1D24B0910000510195 /* RequestDetailViewController.swift in Sources */,
+				848F4B2E24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */,
+				848F4B8924ACA45E00880ACA /* DropDownCell.swift in Sources */,
+				848F4B3A24AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */,
+				848F4BE324ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */,
+				841CDB2124B099ED00510195 /* DocumentViewController.swift in Sources */,
+				848F4B7424ACA41900880ACA /* ToastView.swift in Sources */,
+				848F4B9B24ACA4A300880ACA /* DPDConstants.swift in Sources */,
+				848F4BDF24ACB09200880ACA /* ProfileViewController.swift in Sources */,
+				848F4B6524ACA3FC00880ACA /* UIFont+Size.swift in Sources */,
+				848F4B7A24ACA41900880ACA /* ToastWindow.swift in Sources */,
+				848F4BB024ACA4C300880ACA /* Constant.swift in Sources */,
+				848F4BCC24ACA89700880ACA /* HomeViewController.swift in Sources */,
+				843873C524AC9C3300828515 /* RoadStar_ProviderTests.swift in Sources */,
+				848F4BD924ACB09200880ACA /* SettingsViewController.swift in Sources */,
+				848F4B9E24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */,
+				848F4B2A24AC9F6200880ACA /* SplashViewController.swift in Sources */,
+				841CDB0924B0736C00510195 /* RegisterDriverViewController.swift in Sources */,
+				848F4BDC24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */,
+				848F4B6224ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */,
+				848F4BE724ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */,
+				848F4B5724ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */,
+				848F4BCF24ACA89700880ACA /* RearViewController.swift in Sources */,
+				848F4B4B24ACA3D600880ACA /* JDropDownAlert.swift in Sources */,
+				841CDB1124B0842B00510195 /* RequestViewController.swift in Sources */,
+				848F4BEF24ACBDF600880ACA /* EarningViewController.swift in Sources */,
+				848F4B4224AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */,
+				848F4BBC24ACA4C300880ACA /* Reachability.swift in Sources */,
+				848F4B7724ACA41900880ACA /* Toast.swift in Sources */,
+				848F4B4624AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */,
+				841CDB3224B0A26300510195 /* CancelRequestView.swift in Sources */,
+				848F4BB324ACA4C300880ACA /* Singleton.swift in Sources */,
+				848F4BBF24ACA4C300880ACA /* HBView.swift in Sources */,
+				848F4BC724ACA86600880ACA /* SWRevealViewController.m in Sources */,
+				848F4BAD24ACA4C300880ACA /* ISPageControl.swift in Sources */,
+				848F4BB924ACA4C300880ACA /* HBURLRequestSession.swift in Sources */,
+				848F4B3224AC9F8800880ACA /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843873C724AC9C3300828515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F4B3F24AC9FD200880ACA /* SignInViewController.swift in Sources */,
+				841CDB1624B0844900510195 /* RequestTableViewCell.swift in Sources */,
+				841CDB0E24B0739A00510195 /* RegisterCompanyViewController.swift in Sources */,
+				848F4B9924ACA4A300880ACA /* DPDUIView+Extension.swift in Sources */,
+				841CDB2724B09D6E00510195 /* LogoutView.swift in Sources */,
+				848F4B6924ACA3FC00880ACA /* UINib+Loader.swift in Sources */,
+				848F4B6024ACA3FC00880ACA /* UIStoryboard+Loader.swift in Sources */,
+				848F4BD424ACAAEE00880ACA /* RKDesignable.swift in Sources */,
+				848F4B6C24ACA3FC00880ACA /* UIColor+Theme.swift in Sources */,
+				848F4BEC24ACBDDE00880ACA /* EarningTableViewCell.swift in Sources */,
+				848F4B8724ACA45E00880ACA /* DropDown+Appearance.swift in Sources */,
+				841CDB1A24B08D4100510195 /* ManageVehicleViewController.swift in Sources */,
+				848F4B8D24ACA45E00880ACA /* DropDown.swift in Sources */,
+				848F4B7E24ACA41900880ACA /* ToastCenter.swift in Sources */,
+				848F4BB724ACA4C300880ACA /* CustomServiceError.swift in Sources */,
+				848F4B3724AC9FC200880ACA /* VerifyOtpViewController.swift in Sources */,
+				848F4B5024ACA3E200880ACA /* Layout+Customization.swift in Sources */,
+				848F4B5424ACA3EC00880ACA /* String+Validation.swift in Sources */,
+				841CDB1E24B0910000510195 /* RequestDetailViewController.swift in Sources */,
+				848F4B2F24AC9F7800880ACA /* OverViewScreenViewController.swift in Sources */,
+				848F4B8A24ACA45E00880ACA /* DropDownCell.swift in Sources */,
+				848F4B3B24AC9FCB00880ACA /* RegisterDetailViewController.swift in Sources */,
+				848F4BE424ACB6DC00880ACA /* BookingHistoryViewController.swift in Sources */,
+				841CDB2224B099ED00510195 /* DocumentViewController.swift in Sources */,
+				848F4B7524ACA41900880ACA /* ToastView.swift in Sources */,
+				848F4B9C24ACA4A300880ACA /* DPDConstants.swift in Sources */,
+				848F4BE024ACB09200880ACA /* ProfileViewController.swift in Sources */,
+				848F4B6624ACA3FC00880ACA /* UIFont+Size.swift in Sources */,
+				848F4B7B24ACA41900880ACA /* ToastWindow.swift in Sources */,
+				848F4BB124ACA4C300880ACA /* Constant.swift in Sources */,
+				848F4BCD24ACA89700880ACA /* HomeViewController.swift in Sources */,
+				843873D024AC9C3300828515 /* RoadStar_ProviderUITests.swift in Sources */,
+				848F4BDA24ACB09200880ACA /* SettingsViewController.swift in Sources */,
+				848F4B9F24ACA4A300880ACA /* DPDKeyboardListener.swift in Sources */,
+				848F4B2B24AC9F6200880ACA /* SplashViewController.swift in Sources */,
+				841CDB0A24B0736C00510195 /* RegisterDriverViewController.swift in Sources */,
+				848F4BDD24ACB09200880ACA /* ChangePasswordViewController.swift in Sources */,
+				848F4B6324ACA3FC00880ACA /* UIViewController+Loader.swift in Sources */,
+				848F4BE824ACB6F600880ACA /* BookingHistoryTableViewCell.swift in Sources */,
+				848F4B5824ACA3F200880ACA /* UIApplication+Statusbar.swift in Sources */,
+				848F4BD024ACA89700880ACA /* RearViewController.swift in Sources */,
+				848F4B4C24ACA3D600880ACA /* JDropDownAlert.swift in Sources */,
+				841CDB1224B0842B00510195 /* RequestViewController.swift in Sources */,
+				848F4BF024ACBDF600880ACA /* EarningViewController.swift in Sources */,
+				848F4B4324AC9FDB00880ACA /* ForgetPasswordViewController.swift in Sources */,
+				848F4BBD24ACA4C300880ACA /* Reachability.swift in Sources */,
+				848F4B7824ACA41900880ACA /* Toast.swift in Sources */,
+				848F4B4724AC9FFB00880ACA /* RegisterCateogryViewController.swift in Sources */,
+				841CDB3324B0A26300510195 /* CancelRequestView.swift in Sources */,
+				848F4BB424ACA4C300880ACA /* Singleton.swift in Sources */,
+				848F4BC024ACA4C300880ACA /* HBView.swift in Sources */,
+				848F4BC824ACA86600880ACA /* SWRevealViewController.m in Sources */,
+				848F4BAE24ACA4C300880ACA /* ISPageControl.swift in Sources */,
+				848F4BBA24ACA4C300880ACA /* HBURLRequestSession.swift in Sources */,
+				848F4B3324AC9F8800880ACA /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843873C224AC9C3300828515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843873AB24AC9C2B00828515 /* RoadStar Provider */;
+			targetProxy = 843873C124AC9C3300828515 /* PBXContainerItemProxy */;
+		};
+		843873CD24AC9C3300828515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843873AB24AC9C2B00828515 /* RoadStar Provider */;
+			targetProxy = 843873CC24AC9C3300828515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843873B324AC9C2C00828515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843873B424AC9C2C00828515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843873B824AC9C3300828515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843873B924AC9C3300828515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843873D224AC9C3300828515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843873D324AC9C3300828515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843873D524AC9C3300828515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FC9BAAE816D556B0064D65 /* Pods-RoadStar Provider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMX82ZP3JP;
+				INFOPLIST_FILE = "RoadStar Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alobha.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar Provider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843873D624AC9C3300828515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9715C81E03673DC0ED42E0D3 /* Pods-RoadStar Provider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMX82ZP3JP;
+				INFOPLIST_FILE = "RoadStar Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alobha.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar Provider-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843873D824AC9C3300828515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0636DEE54CF73AA7D011874D /* Pods-RoadStar ProviderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RoadStar ProviderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alobha.RoadStar-ProviderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar ProviderTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadStar Provider.app/RoadStar Provider";
+			};
+			name = Debug;
+		};
+		843873D924AC9C3300828515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2946C7CB4F512D657B1E345C /* Pods-RoadStar ProviderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RoadStar ProviderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alobha.RoadStar-ProviderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar ProviderTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadStar Provider.app/RoadStar Provider";
+			};
+			name = Release;
+		};
+		843873DB24AC9C3300828515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5FB3218F7FCA02E8AF3466 /* Pods-RoadStar Provider-RoadStar ProviderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RoadStar ProviderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alobha.RoadStar-ProviderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar ProviderUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RoadStar Provider";
+			};
+			name = Debug;
+		};
+		843873DC24AC9C3300828515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2570BAB04EDD7C8BE2FC7588 /* Pods-RoadStar Provider-RoadStar ProviderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RoadStar ProviderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alobha.RoadStar-ProviderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoadStar Provider/RoadStar ProviderUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RoadStar Provider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843873A724AC9C2B00828515 /* Build configuration list for PBXProject "RoadStar Provider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843873D224AC9C3300828515 /* Debug */,
+				843873D324AC9C3300828515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843873D424AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar Provider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843873D524AC9C3300828515 /* Debug */,
+				843873D624AC9C3300828515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843873D724AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar ProviderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843873D824AC9C3300828515 /* Debug */,
+				843873D924AC9C3300828515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843873DA24AC9C3300828515 /* Build configuration list for PBXNativeTarget "RoadStar ProviderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843873DB24AC9C3300828515 /* Debug */,
+				843873DC24AC9C3300828515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843873A424AC9C2B00828515 /* Project object */;
+}

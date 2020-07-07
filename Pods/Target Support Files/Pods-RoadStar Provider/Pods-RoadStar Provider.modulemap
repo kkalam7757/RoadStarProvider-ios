@@ -1,0 +1,6 @@
+framework module Pods_RoadStar_Provider {
+  umbrella header "Pods-RoadStar Provider-umbrella.h"
+
+  export *
+  module * { export * }
+}
